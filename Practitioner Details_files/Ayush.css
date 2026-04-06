@@ -1,0 +1,565 @@
+﻿
+body {
+    color:Black;
+    cursor: default;
+    font-family: "Segoe UI","Helvetica",Garuda,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    text-rendering: optimizelegibility;
+    font-weight:lighter;
+}
+
+#page {
+       border-radius: 0 0 10px 10px;
+       box-shadow: 0 0 85px rgba(0, 0, 0, 0.3);
+     margin: 0 auto 40px;
+     width : 1175px;
+}
+
+.header 
+{
+    background-color: #3C454F;
+    display: block;
+    height: 30px;
+    color:White
+}
+
+
+
+#main-container {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 0 0 10px 10px;
+    color: #666666;
+    padding: 0 40px 15px;
+}
+.Navigation {
+    background: url("/images/Central/Sprites/sprites_horizontal12.png") repeat-x scroll 0 -4500px #F1F1F1;
+    height: 40px;
+    line-height: normal;
+    max-height: 40px;
+    width: 100%;
+}
+.Navigation li {
+  cursor: pointer;
+    display: block;
+    float: left;
+    height: 40px;
+    position: relative;
+    z-index: 100;
+}
+#topNavigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Navigation li a {
+   color:Black;
+    display: block;
+    float: left;
+    font: bold 13px Segoe UI;
+    height: 28px;
+    letter-spacing: 0;
+    padding: 12px 21px 0;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.footer:after {
+    clear: both;
+}
+.footer:before, .footer:after {
+    content: "";
+    display: table;
+     background-color: #3C454F;
+}
+.footer:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.footer:before, .footer:after {
+    content: "";
+    display: table;
+}
+.footer-sitemap 
+{
+	background-color: #F1F1F1;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    overflow: hidden;
+    padding: 20px 40px;
+}
+.footer-sitemap b
+{
+	font-weight:bold;
+}
+
+.footer-bottom {
+    float: right;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 0 40px;
+}
+.footer-bottom ul {
+    margin: 0;
+    padding: 0;
+}
+p, ul, ol, h4, h5, h6, img, table {
+    margin-bottom: 0px;
+}
+ul, ol {
+    margin: 0em 0;
+    padding:0 0 0px;
+    
+}
+footer-bottom li {
+    float: right;
+    margin-left: 20px;
+}
+footer li {
+    line-height: 21px;
+    list-style-type: none;
+    text-align: left;
+}
+#content-container {
+    min-height: inherit;
+    padding-top: 0;
+
+    clear: both;
+    min-height: 450px;
+    padding-top: 6px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+.menu li 
+{
+	list-style:none;
+}
+.menu li a
+{
+ text-decoration:none;
+  background :  #F7F5F2;
+   
+    border-left: 2px solid #3C454F;
+    color: black;
+    display: block;
+    font-size: 15px;
+    height: 30px;
+    margin: 0 0 2px;
+    padding: 0 0 0 3px;
+    text-decoration: none;
+    width: 100px;
+}
+.line li
+{
+	list-style:none;
+}
+.line li a
+{
+ text-decoration:none;
+  background :  #F7F5F2;
+   
+    border-left: 2px solid #3C454F;
+    color: black;
+    display: block;
+    font-size: 15px;
+    height: 30px;
+    margin: 0 0 2px;
+    padding: 0 0 0 3px;
+    text-decoration: none;
+    width: 215px;
+}
+.separator
+{
+	 border-top: 1px solid #CCCCCC;
+    float: right;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.Header
+{
+	border: 1px solid #E6E6E6;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight:lighter;
+    text-align: left;
+    background: none repeat scroll 0 0 #FDFDFD;
+    
+    
+}
+.rowstyle
+{
+	background-color: #3C454F;
+	color:White;
+	
+}
+.rowstyle a
+{
+	background-color: #3C454F;
+	color:White;
+	
+}
+.alternatingrow
+{
+	 background-color: white;
+	 color:Black;
+	 
+}
+.gridview
+{
+	
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    font-family:Segoe UI;
+    font-size: 13px;
+    table-layout: auto;
+     
+}
+.rowstyle td, .alternatingrow td, .SelectedRowStyle td, .EditRowStyle td  {
+    border-right: 0px solid #1D1D1D;
+   
+}
+.footer
+{
+	background-color:White;
+    background-image: url("Images/HeaderGlassBlack.jpg");
+    background-position: center center;
+    background-repeat: repeat-x;
+}
+
+#navigation {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+     
+    border-color: #979797;
+    border-image: none;
+    border-style: solid;
+    border-width: 0px 0;
+    font-size: 1.1em;
+    margin-top: 0em;
+    padding-top: 0.6em;
+    padding-left:206px;
+    
+}
+#navigation ul {
+    padding: 4px 0;
+    text-align:left;
+   background-color:Gray;
+   
+}
+#navigation ul li {
+    display: inline;
+    margin-right: 0.00em;
+}
+#navigation ul li a {
+    background: url("Images/Tab.GIF") no-repeat scroll 100% 0 transparent;
+    color: #0066CC;
+    padding: 5px 0;
+    text-decoration: none;
+}
+#navigation ul li a span {
+    background: url("Images/Tab.GIF") no-repeat scroll 0 0 transparent;
+    padding: 5px 1em;
+    width: 43px;
+    background-color: #F7F5F2;
+    color:Black;
+    font-size:15px;
+    font-family:Segoe UI;
+    font-weight:normal;
+}
+#navigation ul li.last {
+    margin-right: 205px;
+}
+.tdclass {
+    background-attachment: scroll;
+    background-color: #F7F5F2;
+    background-image: none;
+    border: 1px solid #D6D7E7;
+    border-collapse: collapse;
+    color: black;
+    display: table-cell;
+    font-family:Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 2.1;
+    margin: 0;
+    padding: 1px;
+    text-align: left;
+    vertical-align: super;
+    white-space: normal;
+}
+
+.srch {
+    font-family:Segoe UI;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    height: 22px;
+    line-height: normal;
+}
+#FooterTitleName {
+    background: url("../PLoginImages/icons/hm_bgn_7.png") repeat scroll left top transparent;
+    color: white;
+    height: 31px;
+}
+.PAGINGBARFONT {
+    color: black;
+    font-family:Segoe UI;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+/* Added newly for gridview style *//*url("/images/KMCWebsite/bg_mainNav.gif") repeat-x scroll left top #680186*/
+
+.mGrid
+{
+	width: 100%;
+	/*background-color: #fff;*/
+        /*background: url("/images/KMCWebsite/bg_mainNav.gif") repeat-x scroll left top #680186;*/
+	margin: 5px 0 10px 0;
+	/*border: solid 1px #525252;*/
+	border-collapse: collapse;
+	font-size:13px;
+}
+.mGrid td
+{
+	padding: 2px;
+	border: solid 1px #c1c1c1;
+	/*color: #717171;*/
+}
+.mGrid th
+{
+	padding: 4px 2px;
+	color: #fff;
+	background: url("/images/KMCWebsite/bg_mainNav.gif") repeat-x scroll left top #680186;
+	/*border*/-left: solid 1px #525252;
+	font-size: 0.9em;
+}
+.mGrid .alt
+{
+	background: #fcfcfc url(../Images/grd_alt.png) repeat-x top;
+}
+.mGrid .pgr
+{
+	background:#680186 url(../Images/grd_pgr.png) repeat-x top;
+}
+.mGrid .pgr table
+{
+	margin: 5px 0;
+}
+.mGrid .pgr td
+{
+	border-width: 0;
+	padding: 0 6px;
+	border-left: solid 1px #666;
+	font-weight: bold;
+	/*color: #fff;*/
+	line-height: 12px;
+}
+.mGrid .pgr a
+{
+	/*color: #666;*/
+	text-decoration: none;
+}
+.mGrid .pgr a:hover
+{
+	color: #000;
+	text-decoration: none;
+}
+
+/* Added for cashbook style */
+
+.ROWEDIT {
+    background-attachment: scroll;
+    background-color: #F1F1F1;
+    background-image: none;
+    border: 1px solid #D6D7E7;
+    border-collapse: collapse;
+    color: black;
+    display: table-cell;
+    font-family: Arial,Verdana;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 2.1;
+    margin: 0;
+    padding: 1px;
+    text-align: left;
+    vertical-align: super;
+    white-space: normal;
+    width: 10px;
+}
+.LBLROW {
+    background-attachment: scroll;
+    background-color: #EDF6FB;
+    background-image: none;
+    border: 1px solid #D6D7E7;
+    border-collapse: collapse;
+    color: black;
+    display: table-cell;
+    font-family: Arial,Verdana;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 2.1;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    vertical-align: super;
+    white-space: normal;
+    width: 10px;
+}
+
+
+
+
+.LeftNav
+{
+            background: #FBFBFB;
+            font-size:0.9em;
+            line-height:1.3em;
+  
+            
+}
+.LeftNav ul
+{           
+            margin:0;
+            padding:0 0 18px 0;
+            list-style-type:none;
+            
+}
+ 
+.LeftNav ul li { background: #83cade url(/images/KMCWebsite/bg_secondarnav_l1.gif) top left repeat-x;     }
+ 
+.LeftNav ul li a    
+{
+            text-decoration:none;
+            display:block;
+            height:15px;
+            background: url(/images/KMCWebsite/btn_link.gif) 96% 50% no-repeat;
+            padding:10px 11px 11px 10px;
+            color: #333333;
+}
+ 
+html>body .LeftNav ul li a                        { height:auto; min-height:15px; overflow:hidden;   }
+ 
+.LeftNav ul li a:visited
+{ color: #333333;} 
+
+.LeftNav ul li a:hover, .LeftNav ul li a:focus, .LeftNav ul li a:active
+{
+            text-decoration:underline;
+            color: #333333;
+            background: url(/images/KMCWebsite/btn_link_hover.gif) 96% 50% no-repeat; 
+}
+ 
+.LeftNav ul li a.active                              { font-weight:bold;          }
+ 
+/*second level*/
+.LeftNav ul li ul                                       { padding:0;}
+ 
+.LeftNav ul li li { background-image:none; font-weight:normal;}
+.LeftNav ul li li a { background-color:#ddf2f7; border-bottom:1px solid #92cbdb; padding-left:20px;}
+ 
+.LeftNav ul li li a:hover,
+.LeftNav ul li li a:focus,
+.LeftNav ul li li a:active
+{
+    background-color:#efefef; border-bottom:1px solid #c9c9c9;
+}
+
+.LeftNav ul li li a.active {           background-color:#efefef; border-bottom:1px solid #c9c9c9;                        }
+ 
+/*third level*/
+.LeftNav ul li li ul { background: url(/images/KMCWebsite/bg_secondarnav_l4.gif) top left repeat-x; padding-top:0.6em;} 
+.LeftNav ul li li li a.active, 
+.LeftNav ul li li li a.active:hover,
+.LeftNav ul li li li a.active:focus,
+.LeftNav ul li li li a.active:active
+{
+    background-image: url(/images/KMCWebsite/btn_link_down.gif); background-position: 96% 50%; background-repeat: no-repeat; background-color:none;  
+}
+
+.LeftNav ul li li li a { padding-left:25px; color:#0a458b; background-color:#efefef; border-bottom:1px solid #c9c9c9;}
+ 
+ 
+.LeftNav ul li li li ul
+{background:none; padding-top:0;}
+ 
+/*fourth level*/
+ 
+.LeftNav ul li li li li a { 
+	padding-left:30px; 
+	padding-right:0px; 
+	background:url(/images/KMCWebsite/bg_secondarnav_l5.gif) bottom left repeat-x ; 
+	padding-bottom:0.6em; 
+	border-bottom:none; 
+	background-color:#F7F7F7 !important; }
+ 
+.LeftNav ul li li li li a:hover, 
+.LeftNav ul li li li li a.active:hover,
+.LeftNav ul li li li li a:focus,
+.LeftNav ul li li li li a.active:focus,
+.LeftNav ul li li li li a:active,
+.LeftNav ul li li li li a.active:active 
+{
+    background-color:#F7F7F7; background: url(/images/KMCWebsite/bg_secondarnav_l5.gif) bottom left repeat-x; border-bottom:none; font-weight:normal
+}
+
+.LeftNav ul li li li li a.active {color:#0a458b; font-weight:bold !important; background: url(/images/KMCWebsite/bg_secondarnav_l5.gif) bottom left repeat-x; border-bottom:none;}
+ 
+ 
+/*fifth level*/
+.LeftNav ul li li li li ul {border-bottom:1px solid #c9c9c9;}
+.LeftNav ul li li li li li a { color: #333333; background-image:none;  }
+.LeftNav ul li li li li li a:hover,
+.LeftNav ul li li li li li a:focus,
+.LeftNav ul li li li li li a:active
+{
+    text-decoration:underline; 
+    font-weight:normal;
+    border-bottom:none; 
+    background-image:none; 
+    background-color:#F7F7F7
+}
+ 
+.LeftNav ul li li li li li a.active {
+    background: url(/images/KMCWebsite/bg_secondarnav_l6.gif) bottom left repeat-x; padding-bottom:1em; font-weight:bold
+}
+ 
+/*sixth level*/
+ 
+.LeftNav ul li li li li li li a.active, 
+.LeftNav ul li li li li li li a.active:hover,
+.LeftNav ul li li li li li li a.active:focus,
+.LeftNav ul li li li li li li a.active:active
+{ 
+    background-image:none; 
+    color: #333333;
+    font-weight:bold; 
+    padding-bottom:0.4em   
+}
+
+.LeftNav ul li li li li li li a {background-color:#FFF !important; line-height:1.1em; border-bottom:none; }
+ 
+ 
+/*seventh level*/
+ 
+.LeftNav ul li li li li li li li a {padding-left:50px; }
+.LeftNav ul li li li li li li ul {border-bottom:none}
+
+
+/*Footer Styles*/
